@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Search</title>
+    <link rel="stylesheet" href="advstyle.css">
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <a href="index.html">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png">
+            </a>
+            <div class="nav">
+                <a  href="index.html">Google Search</a>
+                <a  href="image.html">Image Search</a>
+            </div>
+        </div>
+        
+        <h2>Advance Search</h2>
+    </div>
+    <form action="https://google.com/search">
+        <div class="group">
+            <label for="q">all these words: </label><br>
+            <input type="text" class="parameter" name="q">
+        </div>
+        <div class="group">
+            <label for="as_epq">this exact word or phrase: </label><br>
+            <input type="text" class="parameter" name="as_epq">
+        </div>
+        <div class="group">
+            <label for="as_oq">any of these words: </label><br>
+            <input type="text" class="parameter" name="as_oq">
+        </div>
+        <div class="group">
+            <label for="as_eq">none of these words: </label><br>
+            <input type="text" class="parameter" name="as_eq">
+        </div>
+        <button type="submit" class="btn">Advance Search</button>
+    </form>
+</body>
+</html>
